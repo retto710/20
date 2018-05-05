@@ -204,6 +204,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
         }
+        //Cambio
+        Intent intent= new Intent(getApplicationContext(),ChooseProfileActivity.class);
+        startActivity(intent);
     }
 
     private boolean isEmailValid(String email) {

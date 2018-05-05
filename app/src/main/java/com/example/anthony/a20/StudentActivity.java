@@ -42,7 +42,7 @@ public class StudentActivity extends FragmentActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         Fragment fragment=null;
-        fragment= new ItemFragment();
+        fragment= new TeacherFragment();
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,fragment).commit();
     }
 

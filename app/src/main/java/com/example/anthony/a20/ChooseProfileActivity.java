@@ -1,5 +1,6 @@
 package com.example.anthony.a20;
 
+import android.app.Fragment;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ public class ChooseProfileActivity extends AppCompatActivity {
         student.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(getApplicationContext(),StudentActivity.class);
+                Intent intent = new Intent(getApplicationContext(),StudentActivity.class);
                 startActivity(intent);
             }
         });
