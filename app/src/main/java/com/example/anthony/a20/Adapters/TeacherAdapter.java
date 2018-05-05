@@ -29,7 +29,7 @@ public class TeacherAdapter extends ArrayAdapter<Teacher>{
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View listItemView = convertView;
         if(listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.teacher_item, parent, false);
         }
         Teacher teacher_item=getItem(position);
 

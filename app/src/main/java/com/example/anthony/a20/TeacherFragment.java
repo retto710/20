@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 import com.example.anthony.a20.Adapters.TeacherAdapter;
 import com.example.anthony.a20.Entities.Teacher;
-import com.example.anthony.a20.dummy.DummyContent;
+
 
 import java.util.ArrayList;
 
