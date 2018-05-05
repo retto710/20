@@ -4,6 +4,7 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/list_item"
     android:padding="16dp"
     >
 
@@ -15,6 +16,7 @@
         />
 
     <LinearLayout
+        android:id="@+id/item_container"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:orientation="vertical"
@@ -30,6 +32,7 @@
 
 
         <RatingBar
+            android:id="@+id/rating_bar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
